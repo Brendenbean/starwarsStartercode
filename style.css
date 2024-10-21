@@ -6,21 +6,43 @@
 }
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #000000;
 }
 
+}
+
+}
 
 
 h1 {
   font-family: "SF Distant Galaxy";
 }
+a{
+  color:yellow;
+}
 
 
 
 /* computer */
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 800px) {
+  img{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   }
+   a{
+    display:flex;
+    justify-content: space-evenly;
+   }
+  }
+ }
 
+ @media screen and (max-width: 400px) {
+  img{
+   display:flex;
+   flex-direction: column;
+  }
+ }
 
-
-}
+ 
 
