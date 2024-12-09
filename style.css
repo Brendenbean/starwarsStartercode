@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
 
+img {
+  align-self: center;
+}
+
+
+
+
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
+
+
 /* phone */
 body {
   background-color: #000000;
